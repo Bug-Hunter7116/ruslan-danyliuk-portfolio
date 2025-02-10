@@ -83,7 +83,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
             <ConfettisButton>
                 <template v-slot:default="{ onLaunchConfettis }">
                     <img
-                        src="/photo.PNG"
+                        src="/photo.png"
                         alt="Rusaln Danyliuk"
                         class="sm:w-40 sm:h-40 w-24 h-24 rounded-full object-cover hover:cursor-pointer"
                         @click="onLaunchConfettis()"
