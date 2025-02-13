@@ -1,14 +1,14 @@
 <script setup lang="ts">
-const { locale, setLocale } = useI18n();
+// const { locale, setLocale } = useI18n();
 
-function localeToSet() {
-    return locale.value === 'en' ? 'cn' : 'en';
-}
+// function localeToSet() {
+//     return locale.value === 'en' ? 'cn' : 'en';
+// }
 
 const colorMode = useColorMode();
 const isDark = computed({
     get() {
-        return colorMode.value === 'dark';
+        return colorMode.value === 'light';
     },
     set() {
         colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark';
@@ -19,7 +19,7 @@ const isDark = computed({
 
 <template>
     <div class="flex flex-row gap-2 items-center">
-        <UButton icon="i-circle-flags-en" class="hidden" />
+        <!-- <UButton icon="i-circle-flags-en" class="hidden" />
         <UButton icon="i-circle-flags-cn" class="hidden" />
         <UButton
             @click="setLocale(localeToSet())"
@@ -28,7 +28,7 @@ const isDark = computed({
             aria-label="Change language"
             aria-current-value="true"
         >
-        </UButton>
+        </UButton> -->
         <UButton
             @click="isDark = !isDark"
             variant="ghost"

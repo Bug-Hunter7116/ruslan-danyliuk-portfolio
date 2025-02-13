@@ -16,7 +16,7 @@ export default defineI18nConfig(() => ({
                 4: 'Led agile project management efforts using tools like Trello and Git, ensuring timely delivery of high-quality software solutions.'
 
             },
-            baidu: {
+            echoglobal: {
                 1: 'Contributed to the development of dynamic web applications, successfully transitioning existing applications to a modern tech stack and enhanced application security by implementing best practices and performing code reviews, resulting in a 40% reduction in vulnerabilities.',
                 2: 'Developed and maintained cross-platform mobile applications using React Native, implemented high-quality responsive designs for both iOS and Android devices and optimized app performance, resulting in a 30% increase in app speed and a more intuitive user interface.',
                 3: 'Integrated RESTful APIs and third-party libraries, enhancing app functionalities such as push notifications, real-time data synchronization, and user authentication so stayed current with new technologies, frameworks, and best practices in mobile development, contributing to team knowledge sharing sessions and workshops.'
@@ -76,7 +76,7 @@ export default defineI18nConfig(() => ({
                 4: '使用 Trello 和 Git 等工具领导敏捷项目管理工作，确保及时交付高质量的软件解决方案。'
 
             },
-            baidu: {
+            echoglobal: {
                 1: '为动态 Web 应用程序的开发做出了贡献，成功地将现有应用程序转换为现代技术堆栈，并通过实施最佳实践和执行代码审查来增强应用程序安全性，从而将漏洞减少了 40%。',
                 2: '使用 React Native 开发和维护跨平台移动应用程序，为 iOS 和 Android 设备实现高质量的响应式设计并优化应用程序性能，从而使应用程序速度提高了 30% 并拥有更直观的用户界面。',
                 3: '集成 RESTful API 和第三方库，增强应用程序功能，如推送通知、实时数据同步和用户身份验证，从而紧跟移动开发中的新技术、框架和最佳实践，为团队知识共享会议和研讨会做出贡献。'

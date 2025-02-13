@@ -22,7 +22,7 @@ import { IconLink } from '@tabler/icons-vue';
                             <a
                                 class="text-base sm:text-lg font-bold hover:underline"
                                 href="https://english.pku.edu.cn/"
-                                >{{$t('university') }}</a>
+                                > Singapore Institute of Technology</a>
                             <p class="sm:hidden block text-sm">• 2016 - 2020</p>
                         </div>
                         <p class="text-xs sm:text-sm">{{ $t('but') }}</p>

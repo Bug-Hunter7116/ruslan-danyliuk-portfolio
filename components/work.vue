@@ -87,8 +87,8 @@ import { IconLink } from '@tabler/icons-vue';
                         >
                             <a
                                 class="text-lg font-bold hover:underline"
-                                href="https://welcome.baidu.app"
-                                >Baidu. Inc</a
+                                href="https://echoglobal.tech/"
+                                >EchoGlobal </a
                             >
                             <p class="sm:hidden block text-sm">
                                 Aug 2019 - Dec 2022 ({{ $t('front') }})
@@ -108,13 +108,13 @@ import { IconLink } from '@tabler/icons-vue';
                 </div>
             </div>
             <p class="text-xs text-neutral-600 dark:text-neutral-400">
-                - {{ $t('baidu.1') }}
+                - {{ $t('echoglobal.1') }}
             </p>
             <p class="text-xs text-neutral-600 dark:text-neutral-400">
-                - {{ $t('baidu.2') }}
+                - {{ $t('echoglobal.2') }}
             </p>
             <p class="text-xs text-neutral-600 dark:text-neutral-400">
-                - {{ $t('baidu.3') }}
+                - {{ $t('echoglobal.3') }}
             </p>
             <p class="text-xs-[40] text-neutral-600 dark:text-neutral-400">
                 ***Technologies***
@@ -134,7 +134,7 @@ import { IconLink } from '@tabler/icons-vue';
                     <Techno techno="Node.js" size="little" />
                 </div>
                 <div>
-                    <img class="rounded-lg h-48 w-72" src="/work/baidu.jpg" alt="">
+                    <img class="rounded-lg h-48 w-72" src="/work/echo.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -149,8 +149,8 @@ import { IconLink } from '@tabler/icons-vue';
                         >
                             <a
                                 class="text-lg font-bold hover:underline"
-                                href="https://welcome.kanvid.app"
-                                >KANVID</a
+                                href="https://www.a3logics.com/"
+                                >A3Logics</a
                             >
                             <p class="sm:hidden block text-sm">
                                 Sep 2017 - Jul 2019 ({{ $t('internship') }})
